@@ -1,0 +1,15 @@
+table, tr, th, td {
+    border:1px solid;
+}
+table, th, td{
+        border:1px solid black;border-collapse:collapse;
+    }
+table, td {
+    background-color: palegreen;
+}
+
+
+tr:nth-child(even) {background-color: greenyellow;}
+td:nth-child(even) th:nth-child(even) {background-color: rgb(74, 241, 74);}
+table, th, td {border:1px solid black; border-collapse: collapse;}
+.table td:nth-child(even) th:nth-child(even) {background-color: rgb(106, 184, 106);}
